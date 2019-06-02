@@ -8,7 +8,7 @@ const KeysView = (options: RouteOptions) => applyMainLayout(options, htm`
       This integration connects your ZEIT project with your Pusher App
       <BR/>
       <BR/>
-      To connect your Pusher App, visit your app's page from your <Link href="https://dashboard.pusher.com">Pusher dashboard</Link>, select the <B>App Keys</B> page and paste the credentials below:
+      To connect your Pusher App, visit your app's page from your <Link href="https://dashboard.pusher.com" target="_blank">Pusher dashboard</Link>, select the <B>App Keys</B> page and paste the credentials below:
     </P>
     <BR/>
     <BR/>
