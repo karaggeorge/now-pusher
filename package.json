@@ -1,0 +1,14 @@
+{
+  "name": "now-pusher",
+  "scripts": {
+    "start": "now dev -p 5005"
+  },
+  "dependencies": {
+    "@zeit/integration-utils": "latest",
+    "now-integration": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.3",
+    "@types/node-fetch": "^2.3.4"
+  }
+}

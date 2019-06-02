@@ -1,0 +1,9 @@
+{
+  "name": "pusher",
+  "alias": ["pusher.now.sh"],
+  "version": 2,
+  "builds": [
+    { "src": "index.ts", "use": "@now/node" },
+    { "src": "static/*.svg", "use": "@now/static" }
+  ]
+}
