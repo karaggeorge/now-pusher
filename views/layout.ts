@@ -15,7 +15,7 @@ const applyMainLayout = (options: RouteOptions, View: any) => htm`
         <BR/>
         ${View}
       </Box>
-      <Box marginTop="20px" display="flex" flexDirection="column" alignItems="center">
+      <Box marginTop="20px" display="flex" justifyContent="space-between" alignItems="center">
         <P>Built with ❤️ by <Link href="https://github/karaggeorge" target="_blank">George Karagkiaouris</Link> for the ZEIT Hackathon</P>
         <P>
           <Link href="https://github.com/karaggeorge/now-pusher/issues/new" target="_blank">Found a bug?</Login>
