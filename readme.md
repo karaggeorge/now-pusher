@@ -1,6 +1,6 @@
 ## now-pusher
 
-A Pusher integration for ZEIT's Now
+A [Pusher Channels](https://pusher.com/channels) integration for ZEIT's Now
 
 [View in the marketplace](https://zeit.co/integrations/pusher)
 
