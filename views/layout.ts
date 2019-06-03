@@ -16,12 +16,16 @@ const applyMainLayout = (options: RouteOptions, View: any) => htm`
         ${View}
       </Box>
       <Box marginTop="20px" display="flex" justifyContent="space-between" alignItems="center">
-        <P>Built with ❤️ by <Link href="https://github/karaggeorge" target="_blank">George Karagkiaouris</Link> for the ZEIT Hackathon</P>
-        <P>
-          <Link href="https://github.com/karaggeorge/now-pusher/issues/new" target="_blank">Found a bug?</Login>
-          |
-          <Link href="https://github.com/karaggeorge/now-pusher" target="_blank">View source</Login>
-        </P>
+        <Box>
+          <P>Built with ❤️ by <Link href="https://github/karaggeorge" target="_blank">George Karagkiaouris</Link> for the ZEIT Hackathon</P>
+        </Box>
+        <Box>
+          <P>
+            <Link href="https://github.com/karaggeorge/now-pusher/issues/new" target="_blank">Found a bug?</Login>
+            |
+            <Link href="https://github.com/karaggeorge/now-pusher" target="_blank">View source</Login>
+          </P>
+        </Box>
       </Box>
     </Box>
   </Page>
