@@ -15,7 +15,7 @@ const applyMainLayout = (options: RouteOptions, View: any) => htm`
         <BR/>
         ${View}
       </Box>
-      <Box marginTop="20px" display="flex" justifyContent="space-between" alignItems="center">
+      <Box marginTop="60px" display="flex" justifyContent="space-between" alignItems="center">
         <Box>
           <P>Built with ❤️ by <Link href="https://github/karaggeorge" target="_blank">George Karagkiaouris</Link> for the ZEIT Hackathon</P>
         </Box>
