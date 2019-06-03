@@ -17,7 +17,7 @@ const applyMainLayout = (options: RouteOptions, View: any) => htm`
       </Box>
       <Box marginTop="60px" display="flex" justifyContent="space-between" alignItems="center">
         <Box>
-          <P>Built with ❤️ by <Link href="https://github/karaggeorge" target="_blank">George Karagkiaouris</Link> for the ZEIT Hackathon</P>
+          <P>Built with ❤️ by <Link href="https://github.com/karaggeorge" target="_blank">George Karagkiaouris</Link> for the ZEIT Hackathon</P>
         </Box>
         <Box>
           <P>
